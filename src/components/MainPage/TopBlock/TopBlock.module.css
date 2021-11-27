@@ -1,0 +1,25 @@
+.info__wrapper {
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+.info__text {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    font-family: "GothamPro-Black";
+    color: rgb(255 255 255);
+    padding: 180px 35px;
+    height: 100%;
+}
+.info__sell {
+    font-weight: var(--font-bold);
+    font-size: 1.5em;
+    line-height: 23px;
+}
+.info__title {
+    margin: 20px 0 75px;
+    font-size: 4.5em;
+    line-height: 69px;
+    font-weight: var(--font-bold);
+    
+}
