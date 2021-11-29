@@ -1,11 +1,10 @@
 
 import TopBlock from '@components/MainPage/TopBlock';
+import SliderTop from '@components/MainPage/SliderTop/SliderTop';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import styles from './MainPage.module.css';
-import SliderTop from '@components/MainPage/SliderTop/SliderTop';
-
 
 const MainPage = () => {  
 
