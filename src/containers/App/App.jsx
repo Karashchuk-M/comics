@@ -11,6 +11,7 @@ const App = () => {
 				<div className={styles.wrapper}>
 					<Header />
 
+
 					<Switch>
 						{routesConfig.map((route, index) => (
 							<Route

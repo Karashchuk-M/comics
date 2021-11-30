@@ -10,10 +10,11 @@ const MainPage = () => {
 
     return (
         <>
+        
             <div className="container">
                 <TopBlock />
             </div>
-
+ 
             <div className="container" >
 
                 <SliderTop />
