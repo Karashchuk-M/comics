@@ -1,15 +1,15 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import routesConfig from '@routes/routesConfig';
-import Header from '@components/Header';
 
 import styles from './App.module.css';
+import NavBar from '@components/NavBar';
 
 const App = () => {
 	return (
 		<>
 			<BrowserRouter>
 				<div className={styles.wrapper}>
-					<Header />
+					<NavBar />
 
 
 					<Switch>
