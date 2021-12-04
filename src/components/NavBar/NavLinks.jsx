@@ -12,7 +12,8 @@ const NavLinks = (props) => {
                       <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink  to="/#" exact>Аукцион</NavLink></li>
                       <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink to="/#" exact>Отслеживаемое</NavLink></li>
                       <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink  to="/#about" exact>Как это работает?</NavLink></li>
-                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink to="/#wallet" exact>Подключить кошелек</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink className={styles.NavBar__wallet} to="/#wallet" exact>Подключить кошелек</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink className={styles.token__button} to="/#wallet" exact>Создать NTF токен</NavLink></li>
                     </ul>
 
         </>

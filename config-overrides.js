@@ -12,6 +12,8 @@ module.exports = function override(config, env) {
         '@styles': 'src/styles',
         '@static': 'src/static',
         '@fonts': 'src/fonts',
+        '@server': 'src/server',
+        '@img': 'src/img'
         
         
 

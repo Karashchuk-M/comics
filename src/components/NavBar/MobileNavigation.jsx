@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import styles from './NavBar.module.css';
 import NavLinks from './NavLinks';
 import img from './burger.svg';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 
 const MobileNavigation = () => {
     const [open, setOpen] = useState(false);

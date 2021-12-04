@@ -1,0 +1,50 @@
+[
+    {
+        "id": "el1",
+        "title": "Веном Рождение",
+        "img": "https://i.ibb.co/HtJQs8B/comics.jpg",
+        "price": 1.1
+    },
+    {
+        "id": "el2",
+        "title": "Веном Рождение",
+        "img":  "https://i.ibb.co/HtJQs8B/comics.jpg",
+        "price": 1.1
+    },
+    {
+        "id": "el3",
+        "title": "Веном Рождение",
+        "img": "https://i.ibb.co/HtJQs8B/comics.jpg",
+        "price": 1.1
+    },
+    {
+        "id": "el4",
+        "title": "Веном Рождение",
+        "img": "https://i.ibb.co/HtJQs8B/comics.jpg",
+        "price": 1.1
+    },
+    {
+        "id": "el5",
+        "title": "Веном Рождение",
+        "img": "https://i.ibb.co/HtJQs8B/comics.jpg",
+        "price": 1.1
+    },
+    {
+        "id": "el6",
+        "title": "Веном Рождение",
+        "img": "https://i.ibb.co/HtJQs8B/comics.jpg",
+        "price": 1.1
+    },
+    {
+        "id": "el7",
+        "title": "Веном Рождение",
+        "img": "https://i.ibb.co/HtJQs8B/comics.jpg",
+        "price": 1.1
+    },
+    {
+        "id": "el8",
+        "title": "Веном Рождение",
+        "img": "https://i.ibb.co/HtJQs8B/comics.jpg",
+        "price": 1.1 
+    }
+]
