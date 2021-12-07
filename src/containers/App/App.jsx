@@ -4,6 +4,7 @@ import routesConfig from '@routes/routesConfig';
 import styles from './App.module.css';
 import NavBar from '@components/NavBar';
 
+
 const App = () => {
 	return (
 		<>

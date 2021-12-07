@@ -37,7 +37,11 @@
 .NavBar .NavBar__wallet {
     border-bottom: 2px solid var(--color-black);
 }
-.NavBar a:hover, a:active {
+.NavBar a:hover, :global(a:active) {
+    color: var(--color-violet);
+    border-bottom: 2px solid #ff6b6b;
+}
+.NavBar a:active {
     color: var(--color-violet);
     border-bottom: 2px solid #ff6b6b;
 }
@@ -62,28 +66,38 @@
     -webkit-transition: all 0.1s linear;
     transition: all 0.1s linear;
 }
+.NavBar a.active {
+    color: #ff6b6b;
+    border-bottom: 2px solid #ff6b6b;
+}
 @media (max-width: 1300px) {
     .Navigation {
         display: none;
     }
     .NavBar {
+       position: relative;
         height: 100%;
         align-items: baseline;
         padding-top: 30px;
+        width: 100%;
     }
     .NavBar .MobileNavigation {
         display: flex;
-        right: 0;
+        position: relative;
+        flex-direction: row;
         align-items: flex-end;
+        justify-content: end;
+
 
     }
     .MobileNavigation__img {
         position: absolute;
-        top: 0;
-        right: 10%;
         width: 24px;
         height: 24px;
-        padding-top: 25px;
+        margin: 0;
+        padding: 0;
+        top: -25px;
+        right: -450px;
         cursor: pointer;
     }
     .NavBar ul {
@@ -100,4 +114,14 @@
         font-weight: 600;
     }
 
+}
+@media (max-width: 840px) {
+    .MobileNavigation__img {
+        right: -200px;
+    }
+}
+@media (max-width: 520px) {
+    .MobileNavigation__img {
+        right: -100px;
+    }
 }

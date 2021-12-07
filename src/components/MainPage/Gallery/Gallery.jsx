@@ -5,10 +5,10 @@ import like from '@img/like.svg';
 import PropTypes from 'prop-types';
 import styles from './Gallery.module.css';
 
-const Gallery = () => {
+const Gallery = ({title='Галерея'}) => {
     return (
         <> 
-               <h1 className={styles.Gallery__h1}>Галерея</h1>
+               <h1 className={styles.Gallery__h1}>{title}</h1>
                 <div className={styles.Gallery__container}>
                 {GalleryDate.map(({ id, title, img, price }) => 
                     <div className={styles.Gallery__items} key={id}>
@@ -32,12 +32,7 @@ const Gallery = () => {
                     </div>
                     
                 )}
-                </div>
-
-                
-            
-
-                
+                </div>               
         </>
      )
 }
@@ -45,6 +40,7 @@ const Gallery = () => {
 Gallery.propTypes = {
     GalleryDate: PropTypes.array,
     name: PropTypes.string,
+    title: PropTypes.string
 }
 
 export default Gallery;

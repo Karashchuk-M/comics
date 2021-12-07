@@ -1,0 +1,75 @@
+.TopCollectors__container {
+    padding: 140px 50px;
+    background-color: rgb(41 41 41);
+
+}
+.TopCollectors__title {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    font-family: "GothamPro-Black";
+    font-weight: 900;
+    font-size: 2.182em;
+    line-height: 46px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 90px;
+    color: rgb(255 255 255);
+}
+.TopCollectors__title::after {
+
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    top: 70px;
+    left: 405px;
+    background-color: rgb(255 255 255 / 25%);
+}
+.TopCollectors__items {
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow:auto;
+}
+
+.TopCollectors__item {
+    position: relative;
+    width: 230px;
+    margin: 0;
+    padding: 0 0 80px;
+}
+.TopCollectors  .avatar {
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    top: 0;
+    left: 0;
+
+ 
+}
+.Collector__info {
+    position: absolute;
+    display: inline-block;
+    width: 135px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    color: var(--color-white);
+    
+
+}
+.TopCollectors__name {
+    font-family: "GothamPro-Black";
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: rgb(255 255 255);
+    font-size: 0.875em;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.TopCollectors .price {
+    
+}

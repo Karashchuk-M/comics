@@ -15,7 +15,7 @@
 	--color-dark-gray: #10100e;
 
 	--color-blue:   #6a83fb;
-	--color-violet: rgb(255 107 107);
+	--color-violet: #ff6b6b;
 
 	--spacing-medium: 20px;
 	--spacing-large: 30px;
@@ -30,7 +30,8 @@
 	--font-family-main: "GothamPro";
 
 	--border-radius-small: 3px;
-	--border-radius-big: 15px;
+	--border-radius-midle: 15px;
+	--border-radius-big: 10px;
 
 	--text-shadow-yellow:
 		0 0 2px var(--color-white),
@@ -61,7 +62,7 @@ img {
 	margin: 0 auto;
 	position: relative;
 	max-width: 1440px;
-	padding:0 ;
+	padding:0 20px;
 	justify-content: center;
 	border: 2px solid #6a83fb;
 	
@@ -70,10 +71,15 @@ img {
 /* TopBlock*/
 .info {
 	position: relative;
-	width: 1410px;
+	max-width: 1410px;
 	height: 640px;
 
 	background-image: var(--theme-default-bgimage);
+	-webkit-background-size: cover; /* Для хрома */
+	-moz-background-size: cover;  /* Для лисы*/
+	-o-background-size: cover;  /* Для оперы*/
+	-ms-background-size: cover;  /* Для ИЭ*/
+	background-size: cover;  /* Для закрипления*/
 	border-radius: var(--border-radius-big);
 	display: flex;
 	flex-wrap: wrap;
@@ -83,6 +89,9 @@ img {
     -ms-flex-pack: center;
 	text-align: center;
     justify-content: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
 	
 }
 /* dark shadow on TopBlock */
@@ -130,6 +139,7 @@ img {
 	  color: rgb(0 0 0)!important;
 	  border: none;
   }
+ 
   @media (max-width: 1000px) {
     .slick-list, .slick-slider, .slick-track{
 		height: 260px !important;	

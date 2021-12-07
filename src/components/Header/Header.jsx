@@ -1,19 +1,19 @@
 import NavBar from '../NavBar';
-import { NavLink } from 'react-router-dom';
+import Logo from './Logo';
+import HeaderDesktop from './HeaderDesktop';
+import MobileHeader from './MobileHeader';
 
 import styles from './Header.module.css';
 
 const Header = () => {  
   return (
         <>                
-         <header className={styles.header}>
-
-          <div className={styles.header__panel} >
-
-                <NavBar />
-          </div>
-        </header>
-
+            <header>
+               <Logo />
+               <HeaderDesktop />
+               <MobileHeader />
+            
+            </header>
     </>
     )
 }

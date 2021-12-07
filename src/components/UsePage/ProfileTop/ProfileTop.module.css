@@ -1,0 +1,97 @@
+.User__info {
+    position: relative;
+	max-width: 1410px;
+    height: 327px;
+    background-image: var(--theme-default-bgimage);
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+    border-radius: 10px;
+    position: relative;
+
+    display: flex;   
+    object-fit: cover;
+    border-radius: var(--border-radius-midle);
+    margin-top: 100px;
+    align-items: center;
+}
+/* dark shadow on User__info */
+.User__info::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0 0 0 / 80%);
+	border-radius: var(--border-radius-big);
+
+}
+.User__profile {
+    margin-left: 20px;
+    color: var(--color-white);
+    line-height: 30px;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0 80px 60px;
+
+}
+.Profile {
+    margin-left: 20px;
+}
+.Profile__avatar {
+    padding: 0;
+    max-width: 100%;
+    width: 164px;
+    
+}
+.Profile__name {
+    font-family: "GothamPro-Black";
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    position: relative;
+}
+.Profile__name::before {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    bottom: -13px;
+    width: 82px;
+    height: 2px;
+    background-color: var(--color-white);
+}
+.Profile__money {
+
+    font-family: "GothamPro";
+    font-weight: 400;
+    font-size: 1.125em;
+    color: rgb(255 255 255);
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+
+}
+.Profile__socials {
+    display: flex;
+    font-family: "GothamPro";
+    font-weight: 400;
+    font-size: 1.125em;
+    color: var(--color-white);
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.vk, .viber, .instagram{
+    width: 22px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.Profile__subscribe {
+    font-family: "GothamPro";
+    font-weight: 400;
+    font-size: 1.125em;
+    color: rgb(255 255 255);
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+a:hover {
+    color: var(--color-violet);
+}

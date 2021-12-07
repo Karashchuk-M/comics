@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+         "name": "Zerox Eurag",
+         "avatar": "https://i.ibb.co/FXHcTVW/icon-1.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "2",
+         "name": "Maffun chane",
+         "avatar":  "https://i.ibb.co/THB131G/icon-2.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "3",
+         "name": "Elena",
+         "avatar": "https://i.ibb.co/Jt0TJ2c/icon-3.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "4",
+         "name": "Millonbuk",
+         "avatar": "https://i.ibb.co/F6Vt9sC/icon-4.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "5",
+         "name": "Alteras",
+         "avatar": "https://i.ibb.co/2MXXyKD/icon-5.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "6",
+         "name": "Wanibo",
+         "avatar": "https://i.ibb.co/vHcJqht/icon-6.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "7",
+         "name": "Forvard 431",
+         "avatar": "https://i.ibb.co/kqXZY7J/icon-7.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "8",
+         "name": "Calum 84213",
+         "avatar": "https://i.ibb.co/RySKvBC/icon-8.png",
+        "price": 1.1, 
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "9",
+         "name": "Rubik",
+         "avatar": "https://i.ibb.co/vkcHSBz/icon-9.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "10",
+         "name": "Nelsing",
+         "avatar": "https://i.ibb.co/P6y4GMK/icon-10.png",
+        "price": 1.1, 
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "11",
+         "name": "Marochka",
+         "avatar": "https://i.ibb.co/N1BjnWM/icon-11.png",
+        "price": 1.1,
+        "nickName": "Aruzgard43@"
+    },
+    {
+        "id": "12",
+         "name": "Alvatraz",
+         "avatar": "https://i.ibb.co/BBPB9sg/icon-12.png",
+        "price": 1.1, 
+        "nickName": "Aruzgard43@"
+    }
+]

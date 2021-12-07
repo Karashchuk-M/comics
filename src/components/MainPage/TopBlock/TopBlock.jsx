@@ -1,6 +1,6 @@
 //import { useState } from 'react';
 import InfoSearch from '../InfoSearch/InfoSearch';
-import PropTypes from 'prop-types';
+
 import styles from './TopBlock.module.css';
 
 const TopBlock = () => {
@@ -19,10 +19,6 @@ const TopBlock = () => {
             </div>
         </>
      )
-}
-
-TopBlock.propTypes = {
-    //optional: PropTypes.string
 }
 
 export default TopBlock;

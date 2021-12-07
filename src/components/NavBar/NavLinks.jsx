@@ -7,13 +7,13 @@ const NavLinks = (props) => {
         <>
  
                     <ul>
-                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink  to="/" exact>Главная</NavLink></li>
-                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink to="/user" exact>Мои предметы</NavLink></li>
-                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink  to="/#" exact>Аукцион</NavLink></li>
-                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink to="/#" exact>Отслеживаемое</NavLink></li>
-                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink  to="/#about" exact>Как это работает?</NavLink></li>
-                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink className={styles.NavBar__wallet} to="/#wallet" exact>Подключить кошелек</NavLink></li>
-                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink className={styles.token__button} to="/#wallet" exact>Создать NTF токен</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink  to="/" exact  activeClassName={styles.active} >Главная</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink to="/user" activeClassName={styles.active}>Мои предметы</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink  to="/user" activeClassName={styles.active}>Аукцион</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink to="/user" activeClassName={styles.active}>Отслеживаемое</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink  to="/about" activeClassName={styles.active}>Как это работает?</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink className={styles.NavBar__wallet} to="/user" activeClassName={styles.active}>Подключить кошелек</NavLink></li>
+                      <li onClick={() => props.isMobile && props.closeMobileMenu()}><NavLink className={styles.token__button} to="/#wallet">Создать NTF токен</NavLink></li>
                     </ul>
 
         </>

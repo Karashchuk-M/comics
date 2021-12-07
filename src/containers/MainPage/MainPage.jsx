@@ -1,6 +1,7 @@
 import Gallery from '@components/MainPage/Gallery/Gallery';
 import TopBlock from '@components/MainPage/TopBlock';
-import SliderTop from '@components/MainPage/SliderTop/SliderTop';
+import SliderTop from '@components/MainPage/SliderTop';
+import TopCollectors from '@components/MainPage/TopCollectors';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -16,9 +17,9 @@ const MainPage = () => {
             </div>
  
             <div className="container" >
-
                 <SliderTop />
             </div>
+                <TopCollectors />
             <div className="container" >
                 <Gallery />
 

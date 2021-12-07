@@ -1,6 +1,8 @@
 .info__wrapper {
     margin-bottom: 30px;
     padding-top: 99px;
+    position: relative;
+
 }
 .info__text {
     position: absolute;
@@ -10,6 +12,7 @@
     color: rgb(255 255 255);
     padding: 180px 35px;
     height: 100%;
+    max-width: 100%;
 }
 .info__sell {
     font-weight: var(--font-bold);
@@ -22,4 +25,13 @@
     line-height: 69px;
     font-weight: var(--font-bold);
     
+}
+@media (max-width: 1200px) {
+    .info__text {
+        padding: 150px auto;
+    }
+    .info__title {
+        font-size: 3.6em;
+        line-height: 48px;
+    }
 }

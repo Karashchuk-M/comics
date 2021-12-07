@@ -1,9 +1,26 @@
+
 import PropTypes from 'prop-types';
 import styles from './UserPage.module.css';
+import ProfileTop from '@components/UsePage/ProfileTop';
+import NavMenu from '@components/UsePage/NavMenu';
+import Gallery from '@components/MainPage/Gallery';
 
 const UserPage = () => {
+    
     return (
-        <><h1>Профиль</h1></>
+        <>
+            <div className="container">
+                <ProfileTop />
+            </div>
+            <div className="container">
+                <NavMenu />
+            </div>
+            <div className="container">
+                <Gallery title='Профиль'/>
+            </div>
+            
+        
+        </>
      )
 }
 
