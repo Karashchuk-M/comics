@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import TopAbout from '@components/About/TopAbout';
+import AboutMarcet from '@components/About/AboutMarcet';
 import styles from './About.module.css';
 
 const About = () => {
@@ -7,6 +8,9 @@ const About = () => {
         <>
             <div className="container">
                 <TopAbout />
+            </div>
+            <div className="container">
+                <AboutMarcet />
             </div>
         </>
      )

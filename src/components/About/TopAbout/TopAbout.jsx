@@ -9,8 +9,8 @@ const TopAbout = () => {
         <>
             
             <div className={styles.BigLogo}>
-                <TopBackground />
-                <img src={Logo} alt="logo" />
+
+                <img className={styles.BigLogo__img} src={Logo} alt="logo" />
             </div>
         </>
      )

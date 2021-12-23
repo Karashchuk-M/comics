@@ -1,0 +1,38 @@
+.Trading__title {
+    text-align: center;
+    font-family: "GothamPro-Black";
+    font-weight: 900;
+    font-size: 3em;
+    color: rgb(0 0 0);
+    line-height: 30px;
+    margin: 130px;
+}
+.AboutMarcet__items {
+    border-top: 1px solid rgb(0 0 0 / 25%);
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: rgb(255 255 255);
+    overflow: hidden;
+
+}
+.DownOutlined {
+    background-color: rgb(255 107 107)!important;
+  }
+  .Accordion__text {
+    max-height: 0;
+    overflow: hidden;
+    font-family: "GothamPro-Light";
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 30px;
+    color: rgb(0 0 0);
+    -webkit-transition: max-height 0.35s;
+    transition: max-height 0.35s;
+}
+@media screen and (max-width: 660px) {
+    .Trading__title {
+        font-size: 1.5em;
+        margin-bottom: 45px;
+    }
+}

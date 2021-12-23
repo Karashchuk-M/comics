@@ -1,6 +1,7 @@
 import MainPage from '@containers/MainPage';
 import UserPage from '@containers/UserPage';
 import About from '@containers/About';
+import Comics from '../containers/Comics/Comics';
 
 const routesConfig = [
     {
@@ -17,6 +18,11 @@ const routesConfig = [
         path: '/about',
         exact: true,
         component: About
+    },
+    {
+        path: '/comics',
+        exact: true,
+        component: Comics
     }
 ];
 

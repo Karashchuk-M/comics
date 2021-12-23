@@ -1,3 +1,14 @@
+@font-face{
+    font-family:"PeaceSans";
+    src:url("@fonts/PeaceSans.ttf") format("truetype")
+  }
+  @font-face{font-family:"GothamPro";src:url("@fonts/GothamPro.ttf") format("truetype")}
+  
+  @font-face{font-family:"GothamPro-Light";src:url("@fonts/GothamPro-Light.ttf") format("truetype")}
+  @font-face{font-family:"GothamPro-Black";src:url("@fonts/GothamPro-Black.ttf") format("truetype")}
+  @font-face{font-family:"SFProDisplay-Light";src:url("@fonts/SFProDisplay-Light.ttf") format("truetype")}
+  
+
 nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7,6 +18,12 @@ nav {
     justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    font-family: "GothamPro" !important;
+    font-weight: 700!important;
+    font-size: 1.125em!important;
+    line-height: 30px !important;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
 .Nav__button{
     background-color: rgb(245, 245, 245);
@@ -16,10 +33,10 @@ nav {
     margin: 38px auto;
     text-align: center;
     color: rgb(0 0 0);
-    font-family: "GothamPro";
+    font-family: "GothamPro" !important;
     font-weight: 700;
     font-size: 1.125em;
-    line-height: 30px;
+    line-height: 30px !important;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
 

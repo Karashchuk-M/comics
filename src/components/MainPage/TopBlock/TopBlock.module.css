@@ -8,22 +8,26 @@
     position: absolute;
     z-index: 10;
     text-align: center;
-    font-family: "GothamPro-Black";
+    font-family: "GothamPro-Black" !important;
     color: rgb(255 255 255);
     padding: 180px 35px;
     height: 100%;
     max-width: 100%;
 }
 .info__sell {
-    font-weight: var(--font-bold);
-    font-size: 1.5em;
-    line-height: 23px;
+    font-family: "GothamPro-Black" !important;
+    color: rgb(255 255 255);
+    font-weight: 900 !important;
+    font-size: 1.5em !important;
+    line-height: 23px !important;
 }
-.info__title {
+.info__title{
+    font-family: "GothamPro-Black" !important;
+    color: rgb(255 255 255);
     margin: 20px 0 75px;
-    font-size: 4.5em;
-    line-height: 69px;
-    font-weight: var(--font-bold);
+    font-size: 4.5em !important;
+    line-height: 69px !important;
+    font-weight: 900;
     
 }
 @media (max-width: 1200px) {

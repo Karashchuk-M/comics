@@ -12,7 +12,7 @@ const Gallery = ({title='Галерея'}) => {
                 <div className={styles.Gallery__container}>
                 {GalleryDate.map(({ id, title, img, price }) => 
                     <div className={styles.Gallery__items} key={id}>
-                      <Link  to="#">
+                      <Link  to="/comics">
                        <img className={styles.comics__photo} src={img} alt={title} />
                        <div className={styles.Gallery__info} > 
                             <p className={styles.Gallery__title}> 

@@ -1,0 +1,51 @@
+@font-face{
+  font-family:"PeaceSans";
+  src:url("@fonts/PeaceSans.ttf") format("truetype")
+}
+@font-face{font-family:"GothamPro";src:url("@fonts/GothamPro.ttf") format("truetype")}
+
+@font-face{font-family:"GothamPro-Light";src:url("@fonts/GothamPro-Light.ttf") format("truetype")}
+@font-face{font-family:"GothamPro-Black";src:url("@fonts/GothamPro-Black.ttf") format("truetype")}
+@font-face{font-family:"SFProDisplay-Light";src:url("@fonts/SFProDisplay-Light.ttf") format("truetype")}
+
+[data-theme="compact"]
+  .site-collapse-custom-collapse
+  .site-collapse-custom-panel,
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  position: relative;
+  display: block;
+  font-family: "GothamPro";
+  font-weight: 400;
+  font-size: 1.5em;
+  color: rgb(0 0 0);
+  font-weight: bold;
+  line-height: 30px;
+  cursor: pointer;
+  text-align: left;
+  padding: 20px 50px 20px 0;
+}
+.site-collapse-custom-collapse
+.site-collapse-custom-panel:children-last{
+  max-height: 0;
+    overflow: hidden;
+    font-family: "GothamPro-Light";
+    font-weight: 300 !important;
+    font-size: 1.5em;
+    line-height: 30px;
+    color: rgb(0 0 0);
+    -webkit-transition: max-height 0.35s;
+    transition: max-height 0.35s;
+}
+.DownOutlined {
+  color: rgb(255 107 107)!important;
+  font-weight: 900;
+  font-size: 1.7em !important;
+  width: 2em;
+  line-height: 3!important;
+
+}
+[data-theme="dark"] .site-collapse-custom-collapse .site-collapse-custom-panel {
+  background: rgba(161, 46, 75, 0.04);
+  border: 0px;
+}
+

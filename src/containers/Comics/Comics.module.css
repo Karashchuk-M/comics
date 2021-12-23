@@ -1,0 +1,285 @@
+@font-face{
+    font-family:"PeaceSans";
+    src:url("@fonts/PeaceSans.ttf") format("truetype")
+  }
+  @font-face{font-family:"GothamPro";src:url("@fonts/GothamPro.ttf") format("truetype")}
+  
+  @font-face{font-family:"GothamPro-Light";src:url("@fonts/GothamPro-Light.ttf") format("truetype")}
+  @font-face{font-family:"GothamPro-Black";src:url("@fonts/GothamPro-Black.ttf") format("truetype")}
+  @font-face{font-family:"SFProDisplay-Light";src:url("@fonts/SFProDisplay-Light.ttf") format("truetype")}
+  
+
+.Comics__container{
+    margin-top: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+.Comics__item {
+    display: flex;
+    flex-direction: row;
+    max-width: 1420px;
+    height: 100%;
+    border: 1px solid #000;
+   }
+.Comics__images {
+    width: 45%;
+    margin-top: 140px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+.Comics__img{
+    width: 100%;
+    height: 780px;
+}
+.Comics__title {
+    font-family: "GothamPro-Black"!important;
+    font-weight: 900!important;
+    font-size: 2.25em!important;
+    color: rgb(0 0 0);
+    line-height: 40px!important;
+}
+
+.Comics__info {
+    width: 564px;
+    border: 1px solid aqua;
+    margin-left: 150px;
+    margin-top: 40px;
+    right: 0;
+
+}
+.Comics__autor {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(0 0 0 / 25%);
+    font-family: "GothamPro"!important;
+    font-weight: 400;
+    font-size: 1.2em !important;
+    line-height: 40px;
+    margin-right: 20px;
+    position: relative;
+    color: rgb(0 0 0 / 70%);
+}
+.Comics__autor::before {
+    content: "|";
+    position: absolute;
+    top: 0;
+    right: 68%;
+    color: rgb(255 107 107);
+}
+.User__counter {
+    margin-left: 5%;
+}
+
+.Comics__chart {
+    width: 564px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: 3px solid rgb(78, 36, 36);
+
+}
+.comics__button {
+    max-height: 50px;
+    font-family: "GothamPro-Black";
+    font-weight: 900;
+    background-color: rgb(255 107 107);
+    color: rgb(255 255 255);
+    border-radius: 1px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    margin-left: 33%;
+}
+.Comics__chart_lines {
+    width: 524px;
+    height: 100%;
+    background-color: rgb(252 252 252);
+}
+.price {
+    font-family: "GothamPro";
+    font-weight: 400;
+    font-size: 1.5em;
+    color: rgb(0 87 255);
+    line-height: 30px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    height: 50px;
+}
+.price__usd {
+    height: 50px;
+    padding: 0;
+}
+
+.comics__extra_info {
+    width: 100%;
+    background-color: rgb(252 252 252);
+}
+.comics__extra_info p:first-child {
+    border-bottom: 1px solid rgb(0 0 0 / 15%);
+}
+
+.comics__extra_info p{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: "GothamPro";
+    font-weight: 400;
+    font-size: 1.125em;
+    color: rgb(87 87 87);
+    line-height: 30px;
+    padding: 28px 20px;
+}
+
+.comics__username {
+    color: rgb(0 87 255);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.comics__username img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+} 
+.comics__lot {
+    margin-top: 25px;
+}
+.comics__lot_info {
+    margin: 20px 0 14px;
+    font-family: "GothamPro-Black";
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 23px;
+    color: rgb(0 0 0);
+}
+.comics__lot ul {
+    border-top: 1px solid rgb(0 0 0 / 25%);
+    border-bottom: 1px solid rgb(0 0 0 / 25%);
+    list-style: none;
+    padding: 10px 0;
+}
+.comics__lot ul li {
+    padding: 10px 5px 10px 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: "GothamPro-Black";
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 15px;
+    color: rgb(0 0 0);
+}
+.comics__sub {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid rgb(0 0 0 / 25%);
+}
+.comics__sub p {
+    margin-right: 20px;
+    font-family: "GothamPro";
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 18px;
+    color: rgb(255 107 107);
+}
+.comics__lot_info {
+    margin: 20px 0 14px;
+    font-family: "GothamPro-Black";
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 23px;
+    color: rgb(0 0 0);
+}
+.comics__keys {
+    padding: 10px 0 20px;
+    border-bottom: 1px solid rgb(0 0 0 / 25%);
+}
+.comics__keys p {
+    font-family: "GothamPro";
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 16px;
+    color: rgb(0 0 0);
+}
+@media (max-width: 1100px) {
+    .Comics__item{
+        display: block;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+    }  
+    .Comics__images {
+        width: 80%;
+        padding: auto;
+    } 
+    .Comics__info {
+        margin: auto;
+    }
+}
+@media (max-width: 760px) { 
+    .Comics__images {
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+    } 
+    .Comics__img {
+        margin: auto;
+    }
+    .Comics__info {
+        justify-content: center;
+        margin: 0 auto;
+        padding:0 10%;
+    }
+    .User__counter {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .Comics__title {
+            font-family: "GothamPro-Black"!important;
+            font-weight: 700!important;
+            font-size: 1.25em!important;
+            color: rgb(0 0 0);
+            line-height: 27px!important;
+    }
+    .User__counter {
+        margin-left: 10px;
+    }
+}
